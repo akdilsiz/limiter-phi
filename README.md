@@ -1,4 +1,7 @@
 # Limiter Phi
+[![Build Status](https://travis-ci.org/akdilsiz/limiterphi.svg?branch=master)](https://travis-ci.org/akdilsiz/limiterphi)
+[![GitHub license](https://img.shields.io/github/license/akdilsiz/limiterphi)](https://github.com/akdilsiz/limiterphi/blob/master/LICENSE)
+[![codecov](https://codecov.io/gh/akdilsiz/limiterphi/branch/master/graph/badge.svg)](https://codecov.io/gh/akdilsiz/limiterphi)\
 phi middleware of **[ulule/limiter](https://github.com/ulule/limiter)** package.\
 For detailed documentation [https://github.com/ulule/limiter](https://github.com/ulule/limiter)
 
