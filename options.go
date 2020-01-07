@@ -46,7 +46,7 @@ func DefaultLimitReachedHandler(ctx *fasthttp.RequestCtx) {
 	ctx.Response.SetBodyString("Limit exceeded")
 }
 
-// KeyGetter will define the rate limiter key given the gin Context
+// KeyGetter will define the rate limiter key given the phi Context
 type KeyGetter func(ctx *fasthttp.RequestCtx) string
 
 // WithKeyGetter will configure the Middleware to use the given KeyGetter

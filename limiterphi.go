@@ -31,7 +31,7 @@ func NewMiddleware(limiter *limiter.Limiter, options ...Option) *Middleware {
 	return middleware
 }
 
-// Handle gin request.
+// Handle phi request.
 func (middleware *Middleware) Handle(next phi.HandlerFunc) phi.HandlerFunc {
 	return func(ctx *fasthttp.RequestCtx) {
 		key := middleware.KeyGetter(ctx)
