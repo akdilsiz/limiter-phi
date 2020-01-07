@@ -1,7 +1,7 @@
 package limiterphi_test
 
 import (
-	"github.com/akdilsiz/limiterphi"
+	"github.com/akdilsiz/limiterphi/v1"
 	"github.com/fate-lovely/phi"
 	"github.com/stretchr/testify/require"
 	"github.com/ulule/limiter/v3"
