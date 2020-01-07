@@ -12,7 +12,6 @@ git:
 
 before_install:
   - go get -t -v ./...
-  - go mod vendor
 
 notifications:
   email: false
