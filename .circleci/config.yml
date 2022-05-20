@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.16
+        environment:
+          GO111MODULE: "on"
+
+    working_directory: /go/src/github.com/streetbyters/agente
+    steps:
+      - checkout
+      - run: sleep 10
+      - run: go get -v -t ./...
+      - run: sleep 5
+      - run: go test -v -coverprofile=coverage.txt -covermode=atomic ./...
+      - run: bash <(curl -s https://codecov.io/bash)
+
