@@ -1,4 +1,5 @@
 # Limiter Phi
+[![CircleCI](https://circleci.com/gh/akdilsiz/limiterphi/tree/master.svg?style=svg)](https://circleci.com/gh/akdilsiz/limiterphi/tree/master)  
 [![GitHub license](https://img.shields.io/github/license/akdilsiz/limiterphi)](https://github.com/akdilsiz/limiterphi/blob/master/LICENSE)
 [![codecov](https://codecov.io/gh/akdilsiz/limiterphi/branch/master/graph/badge.svg)](https://codecov.io/gh/akdilsiz/limiterphi)
 [![Go Report Card](https://goreportcard.com/badge/github.com/akdilsiz/limiterphi)](https://goreportcard.com/report/github.com/akdilsiz/limiterphi)\
